@@ -64,5 +64,5 @@ According to the provided data, if no difference has occurred between the c39 an
 # Discussion and Conclusion
 
 <!--Discussion and conclusion here.  If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason.  Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
-  
-
+    
+In conclusion, the data concludes that the c52 contains a large difference compared to c39. The first graph was the box plot which gave an approximate percentage on the two comparing types. The second graph gave a better idea on the difference between the mean and the max giving a difference around the area of 10. However the final collected data piece shows a very small difference which came out incorrect.
