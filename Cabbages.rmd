@@ -55,7 +55,14 @@ In this table we see that c39 contains a lower max and mean compared to c52 whic
 
 <!--State hypothesis clearly.  Make sure your discussion of the inferential test covers all the aspects that the test output produces, such as test statistic, p-value etc.  Make a decision about the null hypothesis, explain the assumptions on which the selected test/procedure was based, and why the chosen procedure satisfys the assumptions and is appropriate to answer the research question!-->
 
+```{r}
+t.test(VitC~Cult,data=veggy)
+```
+  
+According to the provided data, if no difference has occurred between the c39 and c52, then the p-value would be 0.00000003405. This data doesn't match with the previous data we've collected as the number provided is too small of a difference comapred to the other data.
 
 # Discussion and Conclusion
 
 <!--Discussion and conclusion here.  If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason.  Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
+  
+
