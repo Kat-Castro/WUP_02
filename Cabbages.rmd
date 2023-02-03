@@ -1,7 +1,7 @@
 ---
 title: "Cabbages"
-author: "Put your name here!"
-date: "put the date here"
+author: "Kathleen Castro"
+date: "02/02/2023"
 output:
   html_document:
     df_print: paged
@@ -35,9 +35,21 @@ veggy <- cabbages
 
 <!--Graphical results here.  Make sure to show your code.  Provide appropriate labels for axes, giving units if possible, and provide a good title for the graph, too.  Use the graphical results to describe the patterns if any that exist in the data as focused toward the research question!-->
 
+```{r}
+boxplot(VitC~Cult,data=veggy)
+```
+  
+The c39 box is lower compared to the c52 box. The bolded line shows us the best percentage each type consists of. c52 ranges around 65 while c39 ranges around 50 VitC.
+
 ### Numerical Descriptive Results
 
 <!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
+
+```{r}
+favstats(VitC~Cult,data=veggy)
+```
+  
+In this table we see that c39 contains a lower max and mean compared to c52 which consists a higher max and mean. It looks like c39 is off by approximately by 10 compared to c52.
 
 ## Inferential Results
 
